@@ -1,2 +1,2 @@
-# austintwu.github.io
+# www.austinwu.com
 Personal Site of Austin Wu
