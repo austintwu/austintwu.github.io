@@ -5,13 +5,9 @@ var typewriter = new Typewriter(app, {
     delay: 75
 });
 
-typewriter.typeString('I’m Austin. ')
+typewriter.typeString('Hi, I’m Austin. ')
     .pauseFor(1000)
-    .typeString('<span class="location">I make stuff, </span>')
-    .pauseFor(400)
-    .typeString('<span class="location">teach stuff, </span>')
-    .pauseFor(400)
-    .typeString('<span class="location">and write stuff.</span>')
+    .typeString('This is my website.')
     .callFunction(function() {
         $(".Typewriter__cursor").hide();
     })
