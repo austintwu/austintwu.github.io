@@ -7,7 +7,9 @@ var typewriter = new Typewriter(app, {
 
 typewriter.typeString('Hi, I’m Austin. ')
     .pauseFor(1000)
-    .typeString('This is my website.')
+    .typeString('This is my website. ')
+    .pauseFor(1000)
+    .typeString('</br>Also, check out <a id="yp-link" target="_blank" href="https://www.ouryellow.page">Yellow Pages</a>.')
     .callFunction(function() {
         $(".Typewriter__cursor").hide();
     })

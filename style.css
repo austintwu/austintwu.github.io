@@ -68,5 +68,9 @@ a:hover {
 
 #intro {
     position: absolute;
-    bottom: 40px;
+    top: -60px;
+}
+
+#yp-link:hover{
+    background-color: #efc600;
 }
