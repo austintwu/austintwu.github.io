@@ -5,11 +5,13 @@ var typewriter = new Typewriter(app, {
     delay: 75
 });
 
-typewriter.typeString('Hi, I’m Austin. ')
-    .pauseFor(1000)
-    .typeString('This is my website. ')
-    .pauseFor(1000)
-    .typeString('</br>Also, check out <a id="yp-link" target="_blank" href="https://www.ouryellow.page">Yellow Pages</a>.')
+typewriter.typeString('I’m Austin. ')
+.pauseFor(1000)
+    .typeString('I made this website,<br>')
+    .pauseFor(400)
+    .typeString('<a id="yp-link" target="_blank" href="https://www.ouryellow.page">Yellow Pages</a>,')
+    .pauseFor(500)
+    .typeString(' and <a id="cc-link" target="_blank" href="https://www.committeechairs.com">Committee Chairs</a>.')
     .callFunction(function() {
         $(".Typewriter__cursor").hide();
     })

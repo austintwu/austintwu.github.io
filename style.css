@@ -73,4 +73,12 @@ a:hover {
 
 #yp-link:hover{
     background-color: #efc600;
+    color: white;
+    font-style: italic;
+}
+
+#cc-link:hover{
+    background-color: #4f9eaf;
+    color: white;
+    font-style: italic;
 }
