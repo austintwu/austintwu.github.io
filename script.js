@@ -9,7 +9,7 @@ typewriter.typeString('I’m Austin. ')
 .pauseFor(1000)
     .typeString('I made this website,<br>')
     .pauseFor(400)
-    .typeString('<a id="yp-link" target="_blank" href="https://www.ouryellow.page">Yellow Pages</a>,')
+    .typeString('<a id="yp-link" target="_blank" href="https://www.yellowpages.love">Yellow Pages</a>,')
     .pauseFor(500)
     .typeString(' and <a id="cc-link" target="_blank" href="https://www.committeechairs.com">Committee Chairs</a>.')
     .callFunction(function() {
